@@ -29,7 +29,7 @@ const Main = () => {
 
     console.log(obj)
     axios
-      .post('http://localhost:8080/shayri', obj)
+      .post('https://crimson-salamander-gown.cyclic.app/shayri', obj)
       .then((response) => {
         // Handle the response here
         setResponse(response.data);
